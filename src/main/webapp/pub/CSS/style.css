@@ -1,0 +1,122 @@
+.navbar-brand {
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 26px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cart {
+    color: black;
+}
+
+#cartLink,#productCard,#cartImageLink,#cartProductLink {
+    text-decoration: none;
+    color: black;
+}
+
+.cart .cart-basket {
+    font-size: .6rem;
+    position: absolute;
+    top: -22px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    background-color: rgb(83, 141, 234);
+    border-radius: 50%;
+}
+
+#forgotPassword, .errorMessage, .form-label, .form-check-label, .form-text {
+    font-size: 14px;
+}
+
+.card-title, .price{
+    color: #47484a;
+}
+
+.productImage {
+    width: 700px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+/* Ratings widget */
+.rating {
+    width: 200px;
+    height: 35px;
+    padding-left: 0;
+}
+
+/* Hide radio */
+.rating input {
+    display: none;
+}
+
+/* Order correctly by floating highest to the right */
+.rating label {
+    float: right;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.rating label:before {
+    content: "\2605";
+    font-size: 25px;
+    color: #ccc;
+}
+
+/* Click + hover color */
+.rating input:checked ~ label:before,
+.rating:not(:checked) > label:hover:before,
+.rating:not(:checked) > label:hover ~ label:before {
+    color: #f9df4a;
+}
+
+.reviewRating {
+    width: 127px;
+    height: 25px;
+    padding: 0;
+}
+
+.reviewRating input {
+    display: none;
+}
+
+.reviewRating label {
+    float: right;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#checkedStar:before {
+    content: "\2605";
+    font-size: 18px;
+    color: #f9df4a;
+}
+
+#uncheckedStar:before {
+    content: "\2605";
+    font-size: 18px;
+    color: #ccc;
+}
+
+.category-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.category-link.active {
+    background-color: #ececee;
+}
