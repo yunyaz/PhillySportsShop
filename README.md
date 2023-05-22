@@ -11,6 +11,7 @@ The website will feature a user-friendly interface that enables users to browse 
 ## Tech stack
 
 Front-end:
+
 HTML - define the structure of the website
 CSS - style the website's visual appearance
 JavaScript - create interactive elements on the website
