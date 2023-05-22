@@ -13,15 +13,21 @@ The website will feature a user-friendly interface that enables users to browse 
 Front-end:
 
 HTML - define the structure of the website
+
 CSS - style the website's visual appearance
+
 JavaScript - create interactive elements on the website
 
-Back-end
+Back-end:
+
 MySQL - the database to store the website's data
+
 Java - the programming language to build the website's backend functionality, handle business logic, and interact with the database
+
 Spring Boot - create web application, manage dependencies and configurations, and handle security, authentication, and authorization
 
 ## Features
+
 ### 1. Product Catalog 
 
 The home page shows a carousel of fans wearing sports gear from differet teams, and then list some products. The products will be shuffled to show some other random product from database whenever the home page is loaded again. In the navbar, customers can select which sports team they would like to browse products. 
@@ -40,11 +46,14 @@ Customers can also search for products using multiple keywords.
 
 ![search](./readmeImages/search.png)
 
+
+
 ### 2. User Registration 
 
 Customers will be able to register and create their accounts on the website. They will be required to provide basic information such as name and email address. The input data will be validated.
 
 ![signup](./readmeImages/signup.png)
+
 
 ### 3. Product Detail Page
 
@@ -52,17 +61,20 @@ Each product will have a dedicated page that will display detailed information a
 
 ![detail](./readmeImages/detail.png)
 
+
 ### 4. Shopping Cart: 
 
 The shopping cart page will load the products left in the cart from the authenticated customers' prior browsing. The customers will be able to view the contents of their updated shopping cart, change the quantity and remove products if necessary. 
 
 ![cart](./readmeImages/cart.png)
 
+
 ### 5. Checkout 
 
 The page will load the shipping address that customers had saved in the account for easier checkout. Customers will be asked to fill out the payment information.
 
 ![checkout](./readmeImages/checkout.png)
+
 
 ### 6. Other
 
