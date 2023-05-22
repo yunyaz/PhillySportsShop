@@ -18,6 +18,7 @@ CSS - style the website's visual appearance
 
 JavaScript - create interactive elements on the website
 
+
 Back-end:
 
 MySQL - the database to store the website's data
