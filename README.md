@@ -33,19 +33,19 @@ Spring Boot - create web application, manage dependencies and configurations, an
 
 The home page shows a carousel of fans wearing sports gear from differet teams, and then list some products. The products will be shuffled to show some other random product from database whenever the home page is loaded again. In the navbar, customers can select which sports team they would like to browse products. 
 
-![homeNew](./readmeImages/home.png)
+![home1](./readmeImages/home1.png)
 ![home2](./readmeImages/home2.png)
 
 
 In each team page, customers can select the category of products they would like to browse.
 
-![teamNew](./readmeImages/team.png)
+![team1](./readmeImages/team1.png)
 
 
 
 Customers can also search for products using multiple keywords.
 
-![searchNew](./readmeImages/search.png)
+![search1](./readmeImages/search1.png)
 
 
 
@@ -53,32 +53,38 @@ Customers can also search for products using multiple keywords.
 
 Customers will be able to register and create their accounts on the website. They will be required to provide basic information such as name and email address. The input data will be validated.
 
-![signup](./readmeImages/signup.png)
+![signup1](./readmeImages/signup1.png)
 
 
 ### 3. Product Detail Page
 
 Each product will have a dedicated page that will display detailed information about the product, including product images, description, size, quantity, and customer reviews. Authenticated customers can add the product to shopping cart. The customers who have purchased this product can write reviews.
 
-![detail](./readmeImages/detail.png)
+![detail1](./readmeImages/detail1.png)
 
 
 ### 4. Shopping Cart: 
 
 The shopping cart page will load the products left in the cart from the authenticated customers' prior browsing. The customers will be able to view the contents of their updated shopping cart, change the quantity and remove products if necessary. 
 
-![cart](./readmeImages/cart.png)
+![cart1](./readmeImages/cart1.png)
 
 
 ### 5. Checkout 
 
 The page will load the shipping address that customers had saved in the account for easier checkout. Customers will be asked to fill out the payment information.
 
-![checkout](./readmeImages/checkout.png)
+![checkout1](./readmeImages/checkout1.png)
 
 
 ### 6. Other
 
 Customers will be able to change email address and password, manage saved address, and also check order history.
 
-![account](./readmeImages/account.png)
+![account1](./readmeImages/account1.png)
+
+
+## ER Diagram
+
+![er](./readmeImages/er.png)
+
