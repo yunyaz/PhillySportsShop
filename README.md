@@ -32,19 +32,19 @@ Spring Boot - create web application, manage dependencies and configurations, an
 
 The home page shows a carousel of fans wearing sports gear from differet teams, and then list some products. The products will be shuffled to show some other random product from database whenever the home page is loaded again. In the navbar, customers can select which sports team they would like to browse products. 
 
-![home](./readmeImages/home.png)
+![homeNew](./readmeImages/home.png)
 ![home2](./readmeImages/home2.png)
 
 
 In each team page, customers can select the category of products they would like to browse.
 
-![team](./readmeImages/team.png)
+![teamNew](./readmeImages/team.png)
 
 
 
 Customers can also search for products using multiple keywords.
 
-![search](./readmeImages/search.png)
+![searchNew](./readmeImages/search.png)
 
 
 
